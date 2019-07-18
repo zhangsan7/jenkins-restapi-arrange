@@ -12,7 +12,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;虽然POST类型的请求可以将参数直接放在URL中，但是不建议这样使用<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这样做可能会影响到安全，也破坏了POST的设计，如果使用请保证数据安全
 </div>
-
+<br/>
 一、任务类(job)
 
 1、创建job	http请求类型：post
