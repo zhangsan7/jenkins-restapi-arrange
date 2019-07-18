@@ -1,16 +1,16 @@
 # Jenkins REST API 总结
 <div>
-<b>阅读须知：</b>
-  <div style="text-indent:2em;">如果未做特别说明<br/></div>
-  <div style="text-indent:2em;">文中所有的“jobName”指的是任务的名称<br/></div>
-  <div style="text-indent:2em;">文中所有的“viewName”指的是任务所在的视图名称<br/></div>
-  <div style="text-indent:2em;">文中所有的“fileName”指的是任务所在的文件夹名称<br/></div>
-  <div style="text-indent:2em;">文中所有的“oldJobName”指的是重命名操作之前的任务名<br/></div>
-  <div style="text-indent:2em;">文中所有的“newJobName”指的是重命名操作成功之后的任务名<br/></div>
-  <div style="text-indent:2em;">其他参数命名遵从以上规则<br/></div>
-<b>特别说明：</b>
-  <div style="text-indent:2em;">虽然POST类型的请求可以将参数直接放在URL中，但是不建议这样使用<br/></div>
-  <div style="text-indent:2em;">这样做可能会影响到安全，也破坏了POST的设计，如果使用请保证数据安全</div>
+<b>阅读须知：</b><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果未做特别说明<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文中所有的“jobName”指的是任务的名称<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文中所有的“viewName”指的是任务所在的视图名称<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文中所有的“fileName”指的是任务所在的文件夹名称<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文中所有的“oldJobName”指的是重命名操作之前的任务名<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文中所有的“newJobName”指的是重命名操作成功之后的任务名<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其他参数命名遵从以上规则<br/>
+<b>特别说明：</b><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;虽然POST类型的请求可以将参数直接放在URL中，但是不建议这样使用<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这样做可能会影响到安全，也破坏了POST的设计，如果使用请保证数据安全
 </div>
 
 一、任务类(job)
