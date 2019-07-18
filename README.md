@@ -15,37 +15,37 @@
 <br/>
 一、任务类(job)
 
-1、创建job	http请求类型：post
-*  (1)、在Jenkins主页创建任务<br/>
-  http://localhost:8080/jenkins/createItem?name=jobName
-*  (2)、在指定文件夹中创建任务<br/>
-  http://localhost:8080/jenkins/job/fileName/createItem?name=jobName
-*  (3)、在指定视图中创建任务<br/>
-  http://localhost:8080/jenkins/view/viewName/createItem?name=jobName
+1、创建job	http请求类型：post<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(1)、在Jenkins主页创建任务<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;http://localhost:8080/jenkins/createItem?name=jobName<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(2)、在指定文件夹中创建任务<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;http://localhost:8080/jenkins/job/fileName/createItem?name=jobName<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(3)、在指定视图中创建任务<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;http://localhost:8080/jenkins/view/viewName/createItem?name=jobName<br/>
 
-2、获取config	http请求类型：get
-*  (1)、任务未在任何文件夹中<br/>
-  http://localhost:8080/jenkins/job/jobName/config.xml
-*  (2)、任务被创建在文件夹中<br/>
-  http://localhost:8080/jenkins/job/fileName/job/jobName/config.xml
+2、获取config	http请求类型：get<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(1)、任务未在任何文件夹中<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;http://localhost:8080/jenkins/job/jobName/config.xml<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(2)、任务被创建在文件夹中<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;http://localhost:8080/jenkins/job/fileName/job/jobName/config.xml<br/>
 
-3、构建job	http请求类型：post
-*  (1)、任务未在任何文件夹中<br/>
-  http://localhost:8080/jenkins/job/jobName/build
-*  (2)、任务被创建在文件夹中<br/>
-  http://localhost:8080/jenkins/job/fileName/job/jobName/build
+3、构建job	http请求类型：post<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(1)、任务未在任何文件夹中<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;http://localhost:8080/jenkins/job/jobName/build<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(2)、任务被创建在文件夹中<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;http://localhost:8080/jenkins/job/fileName/job/jobName/build<br/>
 
-4、删除job	http请求类型：post
-*  (1)、任务未在任何文件夹中<br/>
-  http://localhost:8080/jenkins/job/jobName/doDelete
-*  (2)、任务被创建在文件夹中<br/>
-  http://localhost:8080/jenkins/job/fileName/job/jobName/doDelete
+4、删除job	http请求类型：post<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(1)、任务未在任何文件夹中<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;http://localhost:8080/jenkins/job/jobName/doDelete<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(2)、任务被创建在文件夹中<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;http://localhost:8080/jenkins/job/fileName/job/jobName/doDelete<br/>
 
-5、任务重命名	http请求类型：post
-*  (1)、任务未在任何文件夹中<br/>
-  http://localhost:8080/jenkins/job/oldJobName/doRename?newName=newJobName
-*  (2)、任务被创建在文件夹中<br/>
-  http://localhost:8080/jenkins/job/fileName/job/oldJobName/doRename?newName=newJobName
+5、任务重命名	http请求类型：post<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(1)、任务未在任何文件夹中<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;http://localhost:8080/jenkins/job/oldJobName/doRename?newName=newJobName<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(2)、任务被创建在文件夹中<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;http://localhost:8080/jenkins/job/fileName/job/oldJobName/doRename?newName=newJobName<br/>
 
 二、文件夹类(file)	(此处的fileName指代即将对其操作的文件夹的名称)
 
