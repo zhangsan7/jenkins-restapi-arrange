@@ -61,10 +61,10 @@
 4、获取config	http请求类型：get<br/>
   http://localhost:8080/jenkins/job/jobName/config.xml
 
-特别说明：
-*  创建文件夹和删除文件夹的api和创建删除任务的api相同，
-*  但是创建文件夹和创建任务时所涉及的xml文件内容有区别，
-*  获取文件夹的config和获取任务的config可以写入同一个方法。
+<b>特别说明：</b><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创建文件夹和删除文件夹的api和创建删除任务的api相同，<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;但是创建文件夹和创建任务时所涉及的xml文件内容有区别，<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;获取文件夹的config和获取任务的config可以写入同一个方法。
 
 三、视图类(view)	(此处的viewName指代即将对其进行操作的视图的名称)
 
